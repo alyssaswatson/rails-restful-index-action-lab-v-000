@@ -1,5 +1,5 @@
 class StudentController < ApplicationController
-  get "/students" do
+  get '/students' do
     erb :students
   end
 end
